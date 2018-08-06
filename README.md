@@ -1,22 +1,2 @@
-# Sonic controller using pygame for open-ai retro.
-
-To use this script you must setup a ***python 3 enviroment*** with the following command:
-
-```
-virtualenv -p python3  env
-source env/bin/activate
-pip3 install gym-retro
-pip3 install opencv-python
-pip3 install pygame
-pip3 install imutils
-mkdir roms
-```
-
-Download the md Genesis from **some place in the internet** and place it in the roms folder.
-Execute ```python3 -m retro.import roms``` to import the game o retro open-ai.
-
-Execute the extract the data, this method is **pretty slow** because store the information in a file for every step, is intent to be used just for a prove of concept.
-
-
-
-
+# Semestral_IA_2018
+Este curso ha consistido en la aplicación de diferentes técnicas de inteligencia artificial. Para el semestral la pruesta es a traves de alguna tecnica/algoritmo dado o crear su propio mecanismo que permita controlar un agente inteligente a traves de un dominio presentado. El dominio es sonic el Headhog, presentado en el concurso openai retro. Aunque para este semestral no pido que utilizen aprendizaje por refuerzo a ese nivel, seria adecuando que usaran esto como base. Desarrollado por Alexander Basilio Echeverría Gonzalez
