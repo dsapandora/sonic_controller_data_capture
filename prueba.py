@@ -1,6 +1,6 @@
 import retro
 
-env = retro.make('SonicTheHedgehog-Genesis', 'GreenHillZone.Act1')
+env = retro.make('Vectorman2-Genesis')
 
 env.reset()
 
